@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BrightMind Academy offers online tutoring services for primary, secondary, and tertiary students.">
+    <meta name="keywords" content="online tutoring, primary, secondary, tertiary, mathematics, physical science, life sciences">
+    <meta name="author" content="Jeremiah Jeje">
+    <title>BrightMind Academy - Online Tutoring Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2C3E50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .pricing-table,
+        .testimonials,
+        .faq {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .pricing-table div,
+        .testimonials div,
+        .faq div {
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 30%;
+            box-sizing: border-box;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .contact-info div {
+            width: 48%;
+        }
+
+        footer {
+            background-color: #2C3E50;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .btn {
+            background-color: #3498DB;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #2980B9;
+        }
+
+        .social-icons img {
+            width: 30px;
+            margin: 0 10px;
+        }
+
+        .testimonial {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to BrightMind Academy</h1>
+        <p>Your trusted online tutoring service for Primary, Secondary, and Tertiary students.</p>
+    </header>
+
+    <section>
+        <h2>Our Services</h2>
+        <p>BrightMind Academy offers personalized one-on-one and group tutoring sessions for Primary, Secondary, and Tertiary students. We specialize in subjects such as Mathematics, Physical Science, and Life Sciences.</p>
+    </section>
+
+    <section>
+        <h2>Pricing</h2>
+        <div class="pricing-table">
+            <div>
+                <h3>Individual Sessions</h3>
+                <ul>
+                    <li>Primary: R350 per session</li>
+                    <li>Secondary: R380 per session</li>
+                    <li>Tertiary: R400 per session</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Group Sessions</h3>
+                <ul>
+                    <li>Primary: R200 per session</li>
+                    <li>Secondary: R230 per session</li>
+                    <li>Tertiary: R250 per session</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Monthly Subscription</h3>
+                <ul>
+                    <li>Primary: R1300 per month</li>
+                    <li>Secondary: R1600 per month</li>
+                    <li>Tertiary: R2100 per month</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Client Testimonials</h2>
+        <div class="testimonials">
+            <div>
+                <p class="testimonial">"BrightMind Academy has been a game-changer for my child's education. Highly recommend!"</p>
+                <p>- Sylvia Hlalele</p>
+            </div>
+            <div>
+                <p class="testimonial">"The personalized tutoring has helped me understand subjects like never before!"</p>
+                <p>- Thokozani</p>
+            </div>
+            <div>
+                <p class="testimonial">"As a tertiary student, the sessions are invaluable in preparing for exams."</p>
+                <p>- Khulani Moyo</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>FAQs</h2>
+        <div class="faq">
+            <div>
+                <h3>How can I book a session?</h3>
+                <p>You can book a session via our <a href="https://calendly.com" class="btn">Calendly</a> or <a href="https://forms.gle" class="btn">Google Form</a> booking system.</p>
+            </div>
+            <div>
+                <h3>What subjects do you offer?</h3>
+                <p>We offer tutoring in Mathematics, Physical Science, Life Sciences, and more.</p>
+            </div>
+            <div>
+                <h3>How can I contact you?</h3>
+                <p>Email us at <a href="mailto:enquiries.brightmind@outlook.com">enquiries.brightmind@outlook.com</a> or contact us on WhatsApp at <a href="https://wa.me/0816196515" class="btn">081 619 6515</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <div>
+            <h3>Contact Information</h3>
+            <p>Email: <a href="mailto:enquiries.brightmind@outlook.com">enquiries.brightmind@outlook.com</a></p>
+            <p>Phone: <a href="tel:+27816196515">081 619 6515</a></p>
+        </div>
+        <div>
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/1AfjeHF3zh/" target="_blank">
+                    <img src="facebook-icon.png" alt="Facebook">
+                </a>
+                <a href="https://wa.me/0816196515" target="_blank">
+                    <img src="whatsapp-icon.png" alt="WhatsApp">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 BrightMind Academy. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html># Sample workflow for building and deploying an Astro site to GitHub Pages
+#
+# To get started with Astro see: https://docs.astro.build/en/getting-started/
+#
+name: Deploy Astro site to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+env:
+  BUILD_PATH: "." # default value when not using subfolders
+  # BUILD_PATH: subfolder
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Detect package manager
+        id: detect-package-manager
+        run: |
+          if [ -f "${{ github.workspace }}/yarn.lock" ]; then
+            echo "manager=yarn" >> $GITHUB_OUTPUT
+            echo "command=install" >> $GITHUB_OUTPUT
+            echo "runner=yarn" >> $GITHUB_OUTPUT
+            echo "lockfile=yarn.lock" >> $GITHUB_OUTPUT
+            exit 0
+          elif [ -f "${{ github.workspace }}/package.json" ]; then
+            echo "manager=npm" >> $GITHUB_OUTPUT
+            echo "command=ci" >> $GITHUB_OUTPUT
+            echo "runner=npx --no-install" >> $GITHUB_OUTPUT
+            echo "lockfile=package-lock.json" >> $GITHUB_OUTPUT
+            exit 0
+          else
+            echo "Unable to determine package manager"
+            exit 1
+          fi
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: ${{ steps.detect-package-manager.outputs.manager }}
+          cache-dependency-path: ${{ env.BUILD_PATH }}/${{ steps.detect-package-manager.outputs.lockfile }}
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Install dependencies
+        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+        working-directory: ${{ env.BUILD_PATH }}
+      - name: Build with Astro
+        run: |
+          ${{ steps.detect-package-manager.outputs.runner }} astro build \
+            --site "${{ steps.pages.outputs.origin }}" \
+            --base "${{ steps.pages.outputs.base_path }}"
+        working-directory: ${{ env.BUILD_PATH }}
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ env.BUILD_PATH }}/dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
